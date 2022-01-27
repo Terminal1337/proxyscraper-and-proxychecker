@@ -41,7 +41,7 @@ def main():
                 sys.exit()
         elif '2' in PyVer:
             try:
-                proxy = input("[+]Name of the Proxy List: ")
+                proxy = raw_input("[+]Name of the Proxy List: ")
             except:
                 print('[-]Eror: Enter your proxy list: ')
                 sys.exit()
